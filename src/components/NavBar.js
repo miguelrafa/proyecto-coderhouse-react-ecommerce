@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '.././img/logo2.png'
+import logo from '.././images/logo2.png'
+import cartWidget from '.././images/cart.png'
 
 
 const NavBar = () => {
@@ -20,6 +21,12 @@ const NavBar = () => {
 		<li className="nav-item">
 		  	<a className="nav-link active" href="#">Contacto</a>
 		</li>
+		<li className="nav-item">
+            <a id="shopCartText" class="nav-link active" href="#">Carrito</a>
+        </li>
+            <a className="navbar-brand" href="#">
+                <img src={cartWidget} alt="" width="40" height="46" class="d-inline-block align-text-center" />		
+            </a>
 	  </ul>
 	</div>
   </nav>

@@ -4,7 +4,8 @@ import cartWidget from '.././images/cart.png'
 
 
 const NavBar = () => {
-  return <>
+  return (
+  <>
  <nav className="navbar navbar-expand-lg navbar-light fixed-top navBarCustom">
 	<a className="navbar-brand" href="#">
 		<img src={logo} alt="" width="36" height="46" className="d-inline-block align-text-center" />
@@ -31,6 +32,7 @@ const NavBar = () => {
 	</div>
   </nav>
   </>
+  );
 }
 
 export default NavBar

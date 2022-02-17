@@ -22,10 +22,10 @@ const NavBar = () => {
 		  	<a className="nav-link active" href="#">Contacto</a>
 		</li>
 		<li className="nav-item">
-            <a id="shopCartText" class="nav-link active" href="#">Carrito</a>
+            <a className="nav-link active" href="#">Carrito</a>
         </li>
             <a className="navbar-brand" href="#">
-                <img src={cartWidget} alt="" width="40" height="46" class="d-inline-block align-text-center" />		
+                <img src={cartWidget} alt="" width="40" height="46" className="d-inline-block align-text-center" />		
             </a>
 	  </ul>
 	</div>

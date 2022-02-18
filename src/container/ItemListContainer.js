@@ -1,16 +1,17 @@
 import React from 'react'
-import item from '.././container/Item.js'
+import Item from './Item.js'
 
 
 const ItemListContainer = () => {
 
-  const saludo = "Bienvenidos!!"
+  const text = ["Bienvenidos!!"]
 
 
   return (
     
-    <div >{item.saludo}</div>
-    
+    <div>
+    <Item saludo={text}></Item>
+    </div>
   );
 }
 

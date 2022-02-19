@@ -4,14 +4,15 @@ import Item from './Item.js'
 
 const ItemListContainer = () => {
 
-  const text = ["Bienvenidos!!"]
+  const text = "Bienvenidos!!"
 
 
   return (
-    
+    <>
     <div>
     <Item saludo={text}></Item>
     </div>
+    </>
   );
 }
 

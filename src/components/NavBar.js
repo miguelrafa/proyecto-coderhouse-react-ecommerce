@@ -6,7 +6,7 @@ import cartWidget from '.././images/cart.png'
 const NavBar = () => {
   return (
   <>
- <nav className="navbar navbar-expand-lg navbar-light fixed-top navBarCustom">
+ <nav className="navbar navbar-expand-lg navbar-light navBarCustom">
 	<a className="navbar-brand" href="#">
 		<img src={logo} alt="" width="36" height="46" className="d-inline-block align-text-center" />
 		Site de e-commerce

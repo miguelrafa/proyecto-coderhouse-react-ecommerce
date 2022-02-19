@@ -5,12 +5,12 @@ import ItemListContainer from './container/ItemListContainer.js';
 
 function App() {
   return (
-    <>
-      
+      <>
       <NavBar></NavBar>
+
       <ItemListContainer></ItemListContainer>
-     
-    </>
+      </>
+    
   );
 }
 

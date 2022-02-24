@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+  .navBarCustom {
+    background-color: rgb(160, 159, 159);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+
+  

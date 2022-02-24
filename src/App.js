@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar.js';
+import ItemListContainer from './container/ItemListContainer.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Site ecommerce</h1>
-    </div>
+      <>
+      <NavBar></NavBar>
+
+      <ItemListContainer></ItemListContainer>
+      </>
+    
   );
 }
 

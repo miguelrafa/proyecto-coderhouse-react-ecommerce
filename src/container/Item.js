@@ -1,15 +1,32 @@
 import React from 'react'
 
-const Item = (props) => {
+const Item = ({product}) => {
   return (
-    
-     <>
-     <div className="navBarCustom">
-        <h1> {props.saludo}</h1>
+  
+    <article className="card1">
+      <div className="card-img-top mx-auto cardImage">
+          <img src={ product.img } alt="" />
       </div>
-       
-      </>
-    
+      <div className="card-title">
+          <h3> { product.name } </h3>
+          <h5> ${ product.price } </h5>
+      </div>
+  </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   );
 }
 
